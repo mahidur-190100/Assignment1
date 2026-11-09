@@ -1,4 +1,5 @@
 Introduction
+
 TypeScript has three special types any, unknown, and never. They look similar but work very differently. Many developers use any to stop type errors but this hides bugs. This post explains the difference in simple words.
 
 Body
@@ -33,4 +34,5 @@ function fail(msg: string): never {
 never is also useful for exhaustive checks—ensuring every case in a union is handled.
 
 Conclusion
+
 Remember it simply: any = don't check which might be dangerous, unknown = check before use which is safe, never = nothing (impossible). In real projects, avoid any and prefer unknown to keep your code safe and bug-free.

@@ -6,7 +6,8 @@ Body
 public — open to everyone
 By default, all properties and methods are public. They can be accessed from anywhere.
 
-typescript
+example
+
 class User {
   public name: string; // 'public' is optional here
   constructor(name: string) {
@@ -17,7 +18,8 @@ class User {
 private — only inside the class
 private members are accessible only within the class itself not from outside or subclasses.
 
-typescript
+example
+
 class BankAccount {
   private balance: number = 0;
   deposit(amount: number) {
@@ -29,7 +31,8 @@ class BankAccount {
 protected — class and subclasses
 protected members are accessible within the class and its subclasses, but not from outside.
 
-typescript
+example
+
 class Animal {
   protected sound = "sound";
 }
